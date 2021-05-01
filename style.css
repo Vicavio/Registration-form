@@ -1,0 +1,49 @@
+body {
+  background-color: #ffe4e1;
+  margin-top: 3%;
+  margin-left: 37%;
+}
+h3 {
+  font-size: 24px;
+  text-align: center;
+}
+input:focus {
+  outline: 0;
+  border-color: #ffe4e1;
+}
+.box {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 8px;
+  height: fit-content;
+  width: fit-content;
+  padding: 50px;
+  padding-top: 25px;
+}
+.outside {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.inside {
+  margin-bottom: 10px;
+  width: auto;
+  height: 25px;
+  font-size: 17px;
+}
+#button {
+  cursor: pointer;
+  margin-left: 29%;
+  background-color: #ffe4e1;
+  font-weight: bold;
+  margin-top: 10px;
+  height: auto;
+  padding: 6px;
+  width: 70px;
+  border-radius: 8px;
+}
+
+.reqError {
+  font-size: small;
+  color: red;
+}
